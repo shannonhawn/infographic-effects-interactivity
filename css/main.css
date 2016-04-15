@@ -28,18 +28,22 @@ svg {
   height: 100%;
 }
 
+/*--light blue houses--*/
 .st0{
   fill:#A8CED7;
 }
 
+/*--roundabout grass--*/
 .st1{
   fill:#AFD27F;
   }
 
+/*--blue--*/
 .st2{
   fill:#659F9C;
 }
 
+/*--red--*/
 .st3{
   fill:#DE563E;
   }
@@ -48,10 +52,13 @@ svg {
   fill:#282561;
   }
 
+
+/*--road colour--*/
 .st5{
   fill:#828182;
 }
 
+/*--roundabout road--*/
 .st6{
  fill:none;
  stroke:#DEB442;
@@ -60,10 +67,12 @@ svg {
  stroke-dasharray:11.4528;
  }
 
+ /*--banner-red--*/
 .st7{
   fill:#E72128;
   }
 
+/*--banner-orange--*/
 .st8{
   fill:#F36C24;
   }
@@ -72,6 +81,8 @@ svg {
   fill:#FFFFFF;
   }
 
+
+/*--earth nose--*/
 .st10{
   fill:none;
   stroke:#4B7D79;
@@ -79,16 +90,19 @@ svg {
   stroke-miterlimit:10;
 }
 
+/*--earth--*/
 .st11{
   opacity:0.75;
   fill:#6AB445;
   enable-background:new ;
   }
 
+/*--earth mouth--*/
 .st12{
   fill:#4B7D79;
   }
 
+/*--eyebrows--*/
 .st13{
   fill:#FFFFFF;
   stroke:#282561;
@@ -97,6 +111,7 @@ svg {
   stroke-miterlimit:10;
 }
 
+/*--weight eyes--*/
 .st14{
   fill:#E7E7E8;
   }
@@ -122,6 +137,7 @@ svg {
   stroke-miterlimit:10;
   }
 
+/*--graph line--*/
 .st19{
   fill:none;
   stroke:#282561;
@@ -129,6 +145,7 @@ svg {
   stroke-miterlimit:10;
 }
 
+/*--graph line--*/
 .st20{
   fill:none;
   stroke:#282560;
@@ -136,10 +153,12 @@ svg {
   stroke-miterlimit:10;
 }
 
+/*--car 1 graph--*/
 .st21{
   fill:#DEB442;
 }
 
+/*--gasoline-*/
 .st22{
   opacity:0.36;
   fill:#DE563E;
@@ -150,20 +169,24 @@ svg {
   fill:none;
 }
 
+/*--licence--*/
 .st24{
   fill:#DDC659;
 }
 
+/*--licence--*/
 .st25{
   fill:#59595C;
 }
 
+/*--sign--*/
 .st26{
   fill:none;
   stroke:#FFFFFF;
   stroke-miterlimit:10;
 }
 
+/*--commute road--*/
 .st27{
 fill:none;
 stroke:#DEB442;
@@ -172,6 +195,8 @@ stroke-miterlimit:10;
 stroke-dasharray:13.1549,13.1549;
 }
 
+
+/*--licence--*/
 .st28{
   fill:#FFFFFF;
   stroke:#016838;
@@ -179,6 +204,8 @@ stroke-dasharray:13.1549,13.1549;
   stroke-miterlimit:10;
 }
 
+
+/*--licence holes--*/
 .st29{
   fill:none;
   stroke:#231F20;
@@ -186,6 +213,7 @@ stroke-dasharray:13.1549,13.1549;
   stroke-miterlimit:10;
 }
 
+/*--licence holes--*/
 .st30{
   fill:none;
   stroke:#231F20;
@@ -193,13 +221,16 @@ stroke-dasharray:13.1549,13.1549;
   stroke-miterlimit:10;
 }
 
+/*--greenest--*/
 .st31{
   fill:#29B673;
 }
 
+/*--ways to get around--*/
 .st32{
   fill:#016838;
 }
+
 
 .eyes {
   animation: shiftyeyes 1.5s linear infinite;
