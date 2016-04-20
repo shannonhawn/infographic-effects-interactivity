@@ -22,6 +22,7 @@ body {
   margin: 0;
 }
 
+
 svg {
   display: block;
   width: 100%;
@@ -238,9 +239,9 @@ stroke-dasharray:13.1549,13.1549;
 
 @keyframes drive {
 
-  0% { transform: translate(5,0); }
+  0% { transform: translate(5px,0px); }
 
-  100% { transform: translate(55px,0); }
+  100% { transform: translate(55px,0px); }
 
 }
 
