@@ -232,6 +232,32 @@ stroke-dasharray:13.1549,13.1549;
 }
 
 
+.roundcar{
+  animation: drive 2.5s linear infinite;
+}
+
+@keyframes drive {
+
+  0% { transform: translate(5,0); }
+
+  100% { transform: translate(55px,0); }
+
+}
+
+
+
+.arrow {
+  background-color: red;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.arrowPointer {
+  fill: #282560;
+  transition: all 0.5s;
+  transition-delay: .7s;
+}
+
 .eyes {
   animation: shiftyeyes 1.5s linear infinite;
 }
@@ -257,11 +283,3 @@ stroke-dasharray:13.1549,13.1549;
   100% {
     transform: translate(0, 0);
   }
-
-  @media only screen and (min-width: 72em) {
-
-    body {
-      padding-left: 6em;
-      padding-right: 6em;
-    }
-}
