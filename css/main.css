@@ -246,18 +246,6 @@ stroke-dasharray:13.1549,13.1549;
 
 
 
-.arrow {
-  background-color: red;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-}
-
-.arrowPointer {
-  fill: #282560;
-  transition: all 0.5s;
-  transition-delay: .7s;
-}
-
 .eyes {
   animation: shiftyeyes 1.5s linear infinite;
 }
