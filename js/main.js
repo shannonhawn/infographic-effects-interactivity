@@ -1,34 +1,47 @@
 var $body = $('body');
+var $gas = $('.gascan');
 var $btnMove = $('.btn-move');
 var $diamond = $('.diamond');
-var $gas = $('.gascan');
 
-$('html').on('keydown', function (e) {
-  var $foot;
+var $foot = $('.foot');
+var $footprint = $(.'footprint');
+var $foothover = $(.'foothover');
 
-  if (e.keyCode == 32) {
-    $foot = $('<div>');
-    $foot.addClass('foot');
-    $foot.css({
-      'top': Math.random() * (document.documentElement.clientHeight - 100),
-      'left': Math.random() * (document.documentElement.clientHeight - 100)
-    });
-    $body.append($foot);
-  }
+var fadeOut;
+var fadeIn;
+
+
+/*--Footstep--*/
+
+$foothover.on('click', function() {
+  $foot.toggleClass('foot-grow');
+  fadeOut($(this));
 });
 
-$body.on('click', '.foot', function () {
-  $(this).addClass('is-walking');
-});
+$foothover.on('mouseout', function() {
+  fadeIn();
+})
 
-$body.on('transition', '.foot', function () {
-  $(this).remove();
-});
+function fadeOut (exclude) {
+  $('svg').not(exclude).addClass('fade');
+};
 
+function fadeIn () {
+  $('svg').removeClass('fade');
+};
+
+
+
+
+
+/*--Arrow--*/
 
 $btnMove.on('click', function () {
   $diamond.toggleClass('btn-slide');
 });
+
+
+/*--Gas Spill--*/
 
 $gascan.on('mouse-over', function() {
   $gascan.toggleClass('gas-tilt');

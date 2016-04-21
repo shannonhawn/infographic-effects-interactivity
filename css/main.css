@@ -237,22 +237,22 @@ stroke-dasharray:13.1549,13.1549;
 .gas-tilt {
   animation: gas-tilt 500ms alternate infinite forwards;
   transform-origin: 161px 430px;
+  opacity:0.36;
+  fill:#DE563E;
+  enable-background:new ;
 }
 
 @keyframes gas-tilt {
 
   0% {
-    transform: rotate(-5deg);
+    transform: rotate(1deg);
   }
 
   100% {
-    transform: rotate(5deg);
+    transform: rotate(-1deg);
   }
 
 }
-
-
-
 
 .diamond {
   height: 80px;
@@ -266,39 +266,6 @@ stroke-dasharray:13.1549,13.1549;
 
 .btn-slide {
   right: 50px;
-}
-
-
-.foot{
-  left: 0;
-  top: 0;
-  position: absolute;
-  background-color: #6AB445;
-  animation: bounce .5s cubic-bezier(.5, -0.9, .60, 1.9) forwards;
-  transform: translate(-50%, -50%);
-  transition:
-    width .3s cubic-bezier(.7, -0.6, .4, 1.5),
-    height .3s cubic-bezier(.7, -0.6, .4, 1.5),
-    opacity .3s ease-out
-    ;
-}
-
-.is-walking {
-  height: 0;
-  width: 0;
-  opacity: 0;
-  animation-name: none;
-}
-
-@keyframes bounce {
-  0% {
-    height: 50px;
-    width: 50px;
-  }
-  100% {
-    height: 100px;
-    width: 100px;
-  }
 }
 
 
@@ -342,3 +309,24 @@ stroke-dasharray:13.1549,13.1549;
   100% {
     transform: translate(0, 0);
   }
+
+.foot-print {
+  animation: footspin 500ms ease-in forwards;
+  transform-origin: 55px, 60px;
+}
+
+@keyframes footspin {
+
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(0deg) scale(5);
+    fill: #659F9C;
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
