@@ -234,6 +234,39 @@ stroke-dasharray:13.1549,13.1549;
   fill:#016838;
 }
 
+.gas-tilt {
+  animation: gas-tilt 500ms alternate infinite forwards;
+  transform-origin: 161px 430px;
+}
+
+@keyframes gas-tilt {
+
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+
+}
+
+
+
+
+.diamond {
+  height: 80px;
+  right: -100px;
+  top: calc(50% - 40px);
+  width: 80px;
+  background-color: hotpink;
+  transform: rotate(45deg);
+  transition: all .2s linear;
+}
+
+.btn-slide {
+  right: 50px;
+}
 
 
 .foot{
