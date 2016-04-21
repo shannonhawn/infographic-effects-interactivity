@@ -1,7 +1,6 @@
 var $body = $('body');
 var $gas = $('.gascan');
-var $btnMove = $('.btn-move');
-var $diamond = $('.diamond');
+var $arrow = $('.arrow');
 
 var $foot = $('.foot');
 var $footprint = $(.'footprint');
@@ -36,9 +35,9 @@ function fadeIn () {
 
 /*--Arrow--*/
 
-$btnMove.on('click', function () {
-  $diamond.toggleClass('btn-slide');
-});
+$arrow.waypoint(function() {
+  $arrow.addClass('js-appear-animate');
+}, { offset: '75%'});
 
 
 /*--Gas Spill--*/

@@ -23,6 +23,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 5px;
+  color: #AFD27F;
+}
 
 svg {
   display: block;
@@ -237,35 +241,24 @@ stroke-dasharray:13.1549,13.1549;
 .gas-tilt {
   animation: gas-tilt 500ms alternate infinite forwards;
   transform-origin: 161px 430px;
-  opacity:0.36;
   fill:#DE563E;
-  enable-background:new ;
 }
 
 @keyframes gas-tilt {
 
   0% {
-    transform: rotate(1deg);
+    transform: rotate(.5deg);
   }
 
   100% {
-    transform: rotate(-1deg);
+    transform: rotate(-.5deg);
   }
 
 }
 
-.diamond {
-  height: 80px;
-  right: -100px;
-  top: calc(50% - 40px);
-  width: 80px;
-  background-color: hotpink;
-  transform: rotate(45deg);
-  transition: all .2s linear;
-}
-
-.btn-slide {
-  right: 50px;
+.arrow {
+  opacity: 0;
+  transition: all 10ms ease-in;
 }
 
 
