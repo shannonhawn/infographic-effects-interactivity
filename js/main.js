@@ -2,7 +2,8 @@ var $body = $('body');
 var $gascan = $('#gascan');
 var $arrowshoot = $('#arrow-section');
 var $roundcar = $('#roundcar');
-var $foot = $('#footprint')
+var $foot = $('#footprint');
+
 
 var fadeOut;
 var fadeIn;

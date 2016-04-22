@@ -280,9 +280,13 @@ stroke-dasharray:13.1549,13.1549;
   fill:#BA9A6C;
 }
 
+#gascan{
+  transform-origin: 777px 119px;
+  transition: all .3s ease 1s;
+}
+
 .gas-tilt {
   animation: gas-tilt 500ms alternate infinite backwards;
-  transform-origin: 161px 430px;
   fill:#DE563E;
 }
 
@@ -298,7 +302,7 @@ stroke-dasharray:13.1549,13.1549;
 
 }
 
-/*--Drive the Car--*/
+/*--Drive the Car On the Roundabout--*/
 
 .roundcar{
   animation: drive 2.5s linear infinite;
@@ -316,7 +320,7 @@ stroke-dasharray:13.1549,13.1549;
   transform-origin: 469px 702px;
 }
 
-/*--Shift the Eyes!--*/
+/*--Shift those Eyes!--*/
 
 .eyes {
   animation: shiftyeyes 1.5s linear infinite;
@@ -345,6 +349,7 @@ stroke-dasharray:13.1549,13.1549;
   }
 }
 
+/*--Footprint--*/
 
 #footprint{
   transform-origin: 751px 1105px;
