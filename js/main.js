@@ -1,7 +1,8 @@
 var $body = $('body');
-var $gascan = $('.gascan');
-var $arrowshoot = $('.arrow-shoot');
-var $roundcar = $('.roundcar');
+var $gascan = $('#gascan');
+var $arrowshoot = $('#arrow-section');
+var $roundcar = $('#roundcar');
+var $foot = $('#footprint')
 
 var fadeOut;
 var fadeIn;
@@ -10,6 +11,7 @@ var fadeIn;
 
 $arrowshoot.on('click', function () {
   $arrowshoot.toggleClass('arrow-shoot');
+  $foot.toggleClass('footprint');
 });
 
 
@@ -17,12 +19,12 @@ $arrowshoot.on('click', function () {
 
 $gascan.on('mouse-over', function () {
   $gascan.toggleClass('gas-tilt');
-  fadeOut();
+  fadeIn();
 });
 
 $gascan.on('mouse-out', function () {
   $gascan.removeClass('gas-tilt');
-  fadeIn();
+  fadeOut();
 });
 
 /* --Car Drive--*/
