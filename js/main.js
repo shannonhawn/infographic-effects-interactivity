@@ -1,7 +1,7 @@
 var $body = $('body');
 var $gascan = $('.gascan');
-
 var $arrowshoot = $('.arrow-shoot');
+var $roundcar = $('.roundcar');
 
 var fadeOut;
 var fadeIn;
@@ -12,9 +12,6 @@ $arrowshoot.on('click', function () {
   $arrowshoot.toggleClass('arrow-shoot');
 });
 
-$arrowshoot.on('mouseout', function () {
-  $arrowshoot.removeClass('arrow-shoot');
-});
 
 /* --Gas Spill--*/
 
@@ -26,4 +23,10 @@ $gascan.on('mouse-over', function () {
 $gascan.on('mouse-out', function () {
   $gascan.removeClass('gas-tilt');
   fadeIn();
+});
+
+/* --Car Drive--*/
+
+$roundcar.on('click', function () {
+  $roundcar.toggleClass('roundcar');
 });
