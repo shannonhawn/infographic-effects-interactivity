@@ -238,8 +238,38 @@ stroke-dasharray:13.1549,13.1549;
   fill:#016838;
 }
 
+
+.carbonfootprint{
+  fill: white;
+}
+
+
+/*--animations--*/
+
+.arrow-shoot{
+  fill:#DE563E;
+  animation: shoot 1s linear infinite;
+}
+
+  @keyframes shoot {
+
+    0% { transform: translate(4px,0px); }
+
+    100% { transform: translate(40px,0px); }
+
+  }
+}
+
+.gas{
+  fill:#A36F36;
+}
+
+.gascan{
+  fill:#DE563E;
+}
+
 .gas-tilt {
-  animation: gas-tilt 500ms alternate infinite forwards;
+  animation: gas-tilt 500ms alternate infinite backwards;
   transform-origin: 161px 430px;
   fill:#DE563E;
 }
@@ -256,12 +286,6 @@ stroke-dasharray:13.1549,13.1549;
 
 }
 
-.arrow {
-  opacity: 0;
-  transition: all 10ms ease-in;
-}
-
-
 
 .roundcar{
   animation: drive 2.5s linear infinite;
@@ -274,7 +298,6 @@ stroke-dasharray:13.1549,13.1549;
   100% { transform: translate(55px,0px); }
 
 }
-
 
 
 .eyes {
@@ -302,24 +325,3 @@ stroke-dasharray:13.1549,13.1549;
   100% {
     transform: translate(0, 0);
   }
-
-.foot-print {
-  animation: footspin 500ms ease-in forwards;
-  transform-origin: 55px, 60px;
-}
-
-@keyframes footspin {
-
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-
-  50% {
-    transform: rotate(0deg) scale(5);
-    fill: #659F9C;
-  }
-
-  100% {
-    transform: rotate(360deg) scale(1);
-  }
-}
