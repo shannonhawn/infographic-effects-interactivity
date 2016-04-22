@@ -1,31 +1,27 @@
 var $body = $('body');
 var $gascan = $('#gascan');
 var $arrowshoot = $('#arrow-section');
-var $roundcar = $('#roundcar');
 var $foot = $('#footprint');
-
+var $roundcar = $('#roundcar');
 
 var fadeOut;
 var fadeIn;
+
+/* --Gas Spill--*/
+
+$gascan.on('mouseover', function () {
+  $gascan.toggleClass('gas-tilt');
+});
+
+$gascan.on('mouseout', function () {
+  $gascan.removeClass('gas-tilt');
+});
 
 /* --Footstep--*/
 
 $arrowshoot.on('click', function () {
   $arrowshoot.toggleClass('arrow-shoot');
   $foot.toggleClass('footprint');
-});
-
-
-/* --Gas Spill--*/
-
-$gascan.on('mouse-over', function () {
-  $gascan.toggleClass('gas-tilt');
-  fadeIn();
-});
-
-$gascan.on('mouse-out', function () {
-  $gascan.removeClass('gas-tilt');
-  fadeOut();
 });
 
 /* --Car Drive--*/

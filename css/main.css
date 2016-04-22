@@ -34,7 +34,7 @@ svg {
 }
 
 /*--light blue houses--*/
-.st0{
+.windows{
   fill:#A8CED7;
 }
 
@@ -252,12 +252,16 @@ stroke-dasharray:13.1549,13.1549;
 
   @keyframes shoot {
 
-    0% { transform: translate(4px,0px); }
+    0% {
+      transform: translate(4px,0px);
+    }
 
-    100% { transform: translate(40px,0px); }
+    100% {
+      transform: translate(40px,0px);
+    }
 
   }
-}
+
 
 /*--Enlarge the Foot--*/
 
@@ -276,28 +280,24 @@ stroke-dasharray:13.1549,13.1549;
   fill:#BA9A6C;
 }
 
-.gascan{
-  fill:#BA9A6C;
-}
-
 #gascan{
   transform-origin: 777px 119px;
   transition: all .3s ease 1s;
 }
 
 .gas-tilt {
-  animation: gas-tilt 500ms alternate infinite backwards;
+  animation: gas-tilt 1s alternate;
   fill:#DE563E;
 }
 
 @keyframes gas-tilt {
 
   0% {
-    transform: rotate(.5deg);
+    transform: rotate(-.5deg);
   }
 
   100% {
-    transform: rotate(-.5deg);
+    transform: rotate(.5deg);
   }
 
 }
