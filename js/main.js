@@ -16,7 +16,7 @@ $arrowshoot.on('click', function() {
 
 $arrowshoot.on('mouseout', function() {
   $arrowshoot.removeClass('arrow-shoot');
-})
+});
 
 
 /*--Gas Spill--*/
@@ -29,4 +29,4 @@ $gascan.on('mouse-over', function() {
 $gascan.on('mouse-out', function (){
   $gascan.removeClass('gas-tilt');
   fadeIn();
-})
+});
