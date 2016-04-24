@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-size: 5px;
-  color: #AFD27F;
+  color: #afd27f;
 }
 
 svg {
@@ -34,82 +34,82 @@ svg {
 }
 
 /*--light blue houses--*/
-.windows{
-  fill:#A8CED7;
+.windows {
+  fill:#a8ced7;
 }
 
 /*--roundabout grass--*/
-.st1{
-  fill:#AFD27F;
+.st1 {
+  fill:#afd27f;
   }
 
 /*--blue--*/
-.st2{
-  fill:#659F9C;
+.st2 {
+  fill:#659f9c;
 }
 
 /*--red--*/
-.st3{
-  fill:#DE563E;
+.st3 {
+  fill:#de563e;
   }
 
-.st4{
+.st4 {
   fill:#282561;
   }
 
 
 /*--road colour--*/
-.st5{
+.st5 {
   fill:#828182;
 }
 
 /*--roundabout road--*/
-.st6{
+.st6 {
  fill:none;
- stroke:#DEB442;
+ stroke:#deb442;
  stroke-width:2.0544;
  stroke-miterlimit:10;
  stroke-dasharray:11.4528;
  }
 
  /*--banner-red--*/
-.st7{
-  fill:#E72128;
+.st7 {
+  fill:#e72128;
   }
 
 /*--banner-orange--*/
-.st8{
-  fill:#F36C24;
+.st8 {
+  fill:#f36c24;
   }
 
-.st9{
-  fill:#FFFFFF;
+.st9 {
+  fill:#ffffff;
   }
 
 
 /*--earth nose--*/
-.st10{
+.st10 {
   fill:none;
-  stroke:#4B7D79;
+  stroke:#4b7d79;
   stroke-width:1.3069;
   stroke-miterlimit:10;
 }
 
 /*--earth--*/
-.st11{
+.st11 {
   opacity:0.75;
-  fill:#6AB445;
+  fill:#6ab445;
   enable-background:new ;
   }
 
 /*--earth mouth--*/
-.st12{
-  fill:#4B7D79;
+.st12 {
+  fill:#4b7d79;
   }
 
 /*--eyebrows--*/
-.st13{
-  fill:#FFFFFF;
+.st13 {
+  fill:#ffffff;
   stroke:#282561;
   stroke-width:2;
   stroke-linecap:round;
@@ -117,25 +117,25 @@ svg {
 }
 
 /*--weight eyes--*/
-.st14{
-  fill:#E7E7E8;
+.st14 {
+  fill:#e7e7e8;
   }
 
-.st15{
-  fill:#754D29;
+.st15 {
+  fill:#754d29;
 }
 
-.st16{
-  fill:#FFFFFF;
+.st16 {
+  fill:#ffffff;
   stroke:#282561;
   stroke-miterlimit:10;
   }
 
-.st17{
+.st17 {
   fill:#282560;
 }
 
-.st18{
+.st18 {
   fill:#5870AE;
   stroke:#282561;
   stroke-width:3;
@@ -143,7 +143,7 @@ svg {
   }
 
 /*--graph line--*/
-.st19{
+.st19 {
   fill:none;
   stroke:#282561;
   stroke-width:3;
@@ -151,7 +151,7 @@ svg {
 }
 
 /*--graph line--*/
-.st20{
+.st20 {
   fill:none;
   stroke:#282560;
   stroke-width:3;
@@ -159,40 +159,40 @@ svg {
 }
 
 /*--car 1 graph--*/
-.st21{
+.st21 {
   fill:#DEB442;
 }
 
 /*--gasoline-*/
-.st22{
+.st22 {
   opacity:0.36;
   fill:#DE563E;
   enable-background:new ;
 }
 
-.st23{
+.st23 {
   fill:none;
 }
 
 /*--licence--*/
-.st24{
+.st24 {
   fill:#DDC659;
 }
 
 /*--licence--*/
-.st25{
+.st25 {
   fill:#59595C;
 }
 
 /*--sign--*/
-.st26{
+.st26 {
   fill:none;
   stroke:#FFFFFF;
   stroke-miterlimit:10;
 }
 
 /*--commute road--*/
-.st27{
+.st27 {
 fill:none;
 stroke:#DEB442;
 stroke-width:2.3339;
@@ -202,7 +202,7 @@ stroke-dasharray:13.1549,13.1549;
 
 
 /*--licence--*/
-.st28{
+.st28 {
   fill:#FFFFFF;
   stroke:#016838;
   stroke-width:6.2178;
@@ -211,7 +211,7 @@ stroke-dasharray:13.1549,13.1549;
 
 
 /*--licence holes--*/
-.st29{
+.st29 {
   fill:none;
   stroke:#231F20;
   stroke-width:1.9365;
@@ -219,7 +219,7 @@ stroke-dasharray:13.1549,13.1549;
 }
 
 /*--licence holes--*/
-.st30{
+.st30 {
   fill:none;
   stroke:#231F20;
   stroke-width:2;
@@ -227,12 +227,12 @@ stroke-dasharray:13.1549,13.1549;
 }
 
 /*--greenest--*/
-.st31{
+.st31 {
   fill:#29B673;
 }
 
 /*--ways to get around--*/
-.st32{
+.st32 {
   fill:#016838;
 }
 
@@ -241,11 +241,11 @@ stroke-dasharray:13.1549,13.1549;
 
 
 /*--Shoot the Arrow--*/
-#arrow-section{
+#arrow-section {
   fill:#DE563E;
 }
 
-.arrow-shoot{
+.arrow-shoot {
   fill:#DE563E;
   animation: shoot 1s linear forwards;
 }
@@ -265,22 +265,22 @@ stroke-dasharray:13.1549,13.1549;
 
 /*--Enlarge the Foot--*/
 
-#footprint{
+#footprint {
   transform-origin: 751px 1105px;
   transition: all .3s ease 1s;
 }
 
-.footprint{
+.footprint {
   transform: scale(1.5);
 }
 
 /*--Pour the Gas-*/
 
-.gas{
+.gas {
   fill:#BA9A6C;
 }
 
-#gascan{
+#gascan {
   transform-origin: 777px 119px;
   transition: all .3s ease 1s;
 }
@@ -304,7 +304,7 @@ stroke-dasharray:13.1549,13.1549;
 
 /*--Drive the Car On the Roundabout--*/
 
-.roundcar{
+.roundcar {
   animation: drive 2.5s linear infinite;
 }
 
@@ -316,7 +316,7 @@ stroke-dasharray:13.1549,13.1549;
 
 }
 
-#roundcar{
+#roundcar {
   transform-origin: 469px 702px;
 }
 
@@ -351,11 +351,11 @@ stroke-dasharray:13.1549,13.1549;
 
 /*--Footprint--*/
 
-#footprint{
+#footprint {
   transform-origin: 751px 1105px;
   transition: all .3s ease 1s;
 }
 
-.footprint{
+.footprint {
   transform: scale(1.5);
 }
