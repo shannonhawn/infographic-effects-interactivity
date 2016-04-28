@@ -325,14 +325,14 @@ svg {
 /* --Drive the Car On the Roundabout-- */
 
 .roundcar {
-  animation: drive 2.5s linear infinite;
+  animation: drive 2.5s linear;
 }
 
 @keyframes drive {
 
   0% { transform: translate(5px, 0); }
 
-  100% { transform: translate(55px, 0); }
+  100% { transform: translate(45px, 0); }
 
 }
 
@@ -378,4 +378,32 @@ svg {
 
 .footprint {
   transform: scale(1.5);
+}
+
+.car {
+  fill:#de563e;
+  animation: drive 2.5s infinite;
+}
+
+.car-wheel {
+  fill:#282560;
+  animation: drive 2.5s infinite;
+}
+
+@keyframes drive {
+
+  0% { transform: translate(-575px, 0); }
+
+  100% { transform: translate(75px, 0); }
+
+}
+
+.gas {
+    transition: fill 0.5s ease;
+    fill: #ba9a6c;
+  }
+
+  .gas:hover {
+    fill: black;
+  }
 }

@@ -1,5 +1,5 @@
 var $body = $('body');
-var $gascan = $('#gascan');
+var $licence = $('#licence');
 var $arrowshoot = $('#arrow-section');
 var $foot = $('#footprint');
 var $roundcar = $('#roundcar');
@@ -9,13 +9,14 @@ var fadeIn;
 
 /* --Gas Spill--*/
 
-$gascan.on('mouseover', function () {
-  $gascan.toggleClass('gas-tilt');
+$licence.on('mouseover', function () {
+  $licence.toggleClass('gas-tilt');
 });
 
-$gascan.on('mouseout', function () {
-  $gascan.removeClass('gas-tilt');
+$licence.on('mouseout', function () {
+  $licence.removeClass('gas-tilt');
 });
+
 
 /* --Footstep--*/
 
