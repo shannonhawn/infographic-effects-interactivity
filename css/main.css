@@ -34,21 +34,25 @@ svg {
 }
 
 /* --light blue houses-- */
+
 .windows {
   fill:#a8ced7;
 }
 
 /* --roundabout grass-- */
+
 .st1 {
   fill:#afd27f;
 }
 
 /* --blue-- */
+
 .st2 {
   fill:#659f9c;
 }
 
 /* --red-- */
+
 .st3 {
   fill:#de563e;
 }
@@ -58,11 +62,13 @@ svg {
 }
 
 /* --road colour-- */
+
 .st5 {
   fill:#828182;
 }
 
 /* --roundabout road-- */
+
 .st6 {
   fill:none;
   stroke:#deb442;
@@ -72,11 +78,13 @@ svg {
 }
 
 /* --banner-red-- */
+
 .st7 {
   fill:#e72128;
 }
 
 /* --banner-orange-- */
+
 .st8 {
   fill:#f36c24;
 }
@@ -86,6 +94,7 @@ svg {
 }
 
 /* --earth nose-- */
+
 .st10 {
   fill:none;
   stroke:#4b7d79;
@@ -94,6 +103,7 @@ svg {
 }
 
 /* --earth-- */
+
 .st11 {
   opacity:0.75;
   fill:#6ab445;
@@ -101,11 +111,13 @@ svg {
 }
 
 /* --earth mouth-- */
+
 .st12 {
   fill:#4b7d79;
 }
 
 /* --eyebrows-- */
+
 .st13 {
   fill:#fff;
   stroke:#282561;
@@ -115,6 +127,7 @@ svg {
 }
 
 /* --weight eyes-- */
+
 .st14 {
   fill:#e7e7e8;
 }
@@ -141,6 +154,7 @@ svg {
 }
 
 /* --graph line-- */
+
 .st19 {
   fill:none;
   stroke:#282561;
@@ -149,6 +163,7 @@ svg {
 }
 
 /* --graph line-- */
+
 .st20 {
   fill:none;
   stroke:#282560;
@@ -157,11 +172,13 @@ svg {
 }
 
 /* --car 1 graph-- */
+
 .st21 {
   fill:#deb442;
 }
 
 /* --gasoline-- */
+
 .st22 {
   opacity:0.36;
   fill:#de563e;
@@ -173,16 +190,19 @@ svg {
 }
 
 /* --licence-- */
+
 .st24 {
   fill:#ddc659;
 }
 
 /* --licence-- */
+
 .st25 {
   fill:#59595c;
 }
 
 /* --sign-- */
+
 .st26 {
   fill:none;
   stroke:#fff;
@@ -190,6 +210,7 @@ svg {
 }
 
 /* --commute road-- */
+
 .st27 {
   fill:none;
   stroke:#deb442;
@@ -199,6 +220,7 @@ svg {
 }
 
 /* --licence-- */
+
 .st28 {
   fill:#fff;
   stroke:#016838;
@@ -207,6 +229,7 @@ svg {
 }
 
 /* --licence holes-- */
+
 .st29 {
   fill:none;
   stroke:#231f20;
@@ -215,6 +238,7 @@ svg {
 }
 
 /* --licence holes-- */
+
 .st30 {
   fill:none;
   stroke:#231f20;
@@ -223,11 +247,13 @@ svg {
 }
 
 /* --greenest-- */
+
 .st31 {
   fill:#29b673;
 }
 
 /* --ways to get around-- */
+
 .st32 {
   fill:#016838;
 }
@@ -235,6 +261,7 @@ svg {
 /* --animations-- */
 
 /* --Shoot the Arrow-- */
+
 #arrow-section {
   fill:#de563e;
 }
@@ -247,11 +274,11 @@ svg {
 @keyframes shoot {
 
   0% {
-    transform: translate(4px, 0px);
+    transform: translate(4px, 0);
   }
 
   100% {
-    transform: translate(40px, 0px);
+    transform: translate(40px, 0);
   }
 
 }
@@ -303,9 +330,9 @@ svg {
 
 @keyframes drive {
 
-  0% { transform: translate(5px, 0px); }
+  0% { transform: translate(5px, 0); }
 
-  100% { transform: translate(55px, 0px); }
+  100% { transform: translate(55px, 0); }
 
 }
 
