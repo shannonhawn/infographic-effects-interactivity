@@ -17,7 +17,6 @@ $licence.on('mouseout', function () {
   $licence.removeClass('gas-tilt');
 });
 
-
 /* --Footstep--*/
 
 $arrowshoot.on('click', function () {

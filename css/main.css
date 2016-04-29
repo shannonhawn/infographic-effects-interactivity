@@ -399,11 +399,10 @@ svg {
 }
 
 .gas {
-    transition: fill 0.5s ease;
-    fill: #ba9a6c;
-  }
+  transition: fill 0.5s ease;
+  fill: #ba9a6c;
+}
 
-  .gas:hover {
-    fill: black;
-  }
+.gas:hover {
+  fill: black;
 }
